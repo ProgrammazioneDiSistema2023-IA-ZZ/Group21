@@ -75,7 +75,7 @@ int request_resources(int thread_id, int request[]) {
     return 1;  // Richiesta concessa
 }
 
-// Funzione per rilasciare risorse
+//Funzione per rilasciare risorse
 void release_resources(int thread_id, int release[]) {
     pthread_mutex_lock(&mutex);
 
